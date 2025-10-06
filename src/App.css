@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* html, body {
+  overflow-x: hidden;
+  width: 100%;
+} */
+
+
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+.main {
+    width: 100%;
+}
+
+.card-hover {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: rgb(27, 18, 155);
+    color: white;
+}
+
+.card-hover:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.7);
+    color: rgb(27, 18, 155);
+    background-color: white;
+}
+
+.myContact{
+    border: 1px solid white;
+    padding: 50px;
+    margin: auto;
+    border-radius: 50px;
+}
+.myContact:hover{
+    transform: translateY(-8px);
+    box-shadow: rgb(75, 75, 75) 0px 48px 100px 0px;
+    /* background-color: rgba(242, 240, 240, 0.788); */
+    /* color: black; */
+} 
+
+body {
+  background-color: #121212;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeInAnimation 1.5s ease-in-out forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
